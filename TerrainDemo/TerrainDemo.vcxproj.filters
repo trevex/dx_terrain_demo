@@ -294,4 +294,18 @@
       <Filter>Source Files\State</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Shader\Geometry.fx">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Shader\Lighting.fx">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Shader\PostProcess.fx">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Shader\SkyBox.fx">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
 </Project>

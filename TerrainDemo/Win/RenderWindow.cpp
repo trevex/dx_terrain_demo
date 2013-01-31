@@ -8,8 +8,12 @@
 #include "InputHandler.h"
 #include "../State/StateManager.h"
 
-#ifndef WIN32_WITH_OPENGL && !_WIN32
-	#include "../Graphics/DirectX/DXRenderer.h"
+#ifdef _WIN32
+	#ifndef WIN32_WITH_OPENGL
+		#include "../Graphics/DirectX/DXRenderer.h"
+	#else
+		#include "../Graphics/OpenGL/GLRenderer.h"
+	#endif
 #else
 	#include "../Graphics/OpenGL/GLRenderer.h"
 #endif

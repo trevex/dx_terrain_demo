@@ -13,7 +13,6 @@
 #include "../Graphics/FontWrapper.h"
 #include "../Base/PlayerController.h"
 
-
 class GameState
 {
 public:
@@ -44,7 +43,6 @@ private:
 
 	static CLight*			m_pointLights;
 	static glm::vec3*		m_pointLightDirs;
-	static std::map<unsigned int, CubeMesh*> m_netPlayers;
 };
 
 #endif

@@ -6,7 +6,7 @@
 #include "../Input/Keyboard.h"
 #include "../Input/Mouse.h"
 #include "../State/StateManager.h"
-#include "../Network/NetworkManager.h"
+//#include "../Network/NetworkManager.h"
 
 #include <boost/lexical_cast.hpp>
 
@@ -21,7 +21,7 @@ bool MenuState::update(const float &delta)
 	}
 	else if (KeyMap.ENTER_DOWN)
 	{
-		if(NetworkManager->connect(const_cast<char*>(m_ip.c_str()))) StateManager::set<GameState>();
+		//if(NetworkManager->connect(const_cast<char*>(m_ip.c_str()))) StateManager::set<GameState>();
 	}
 	else if (KeyMap.DEL_DOWN && m_ip != "")
 	{

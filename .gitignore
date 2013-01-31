@@ -1,3 +1,17 @@
 *.sdf
 *.opensdf
 ipch/
+*.cod
+*.fxo
+TerrainDemo/Debug/
+TerrainDemo/Release/
+Debug/*.exe
+Release/*.exe
+Debug/*.exp
+Release/*.exp
+Debug/*.pdb
+Release/*.pdb
+Debug/*.ilk
+Release/*.ilk
+Debug/*.lib
+Release/*.lib

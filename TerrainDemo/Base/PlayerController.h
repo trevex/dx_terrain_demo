@@ -10,7 +10,6 @@
 #include "../Graphics/Camera.h"
 #include "../Input/Keyboard.h"
 #include "../Input/Mouse.h"
-#include "../Network/NetworkManager.h"
 
 // TODO: clean up and put global variables in a scope
 static const float mov_factor = 0.0009f;
@@ -61,14 +60,6 @@ public:
 		if (mov.x || mov.y || mov.z) {
 			Camera->translate(mov);
 			m_actor->translate(mov);
-		}
-
-		static float netUpdate;
-		netUpdate -= delta;
-		if (netUpdate < 0.0f)
-		{
-			if (NetworkManager->isActive()) NetworkManager->send(m_actor->getPosition()->x, m_actor->getPosition()->y, m_actor->getPosition()->z, m_angle);
-			netUpdate = 60.0f;
 		}
 	}
 

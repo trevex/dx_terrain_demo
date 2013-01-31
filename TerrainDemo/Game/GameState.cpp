@@ -23,7 +23,7 @@ CFontWrapper*				GameState::m_font = 0;
 GameState::Player*			GameState::m_player = 0;
 float						GameState::m_frameDelta = 0.0f;
 glm::vec3*					GameState::m_pointLightDirs = 0;
-std::map<unsigned int, GameState::CubeMesh*> GameState::m_netPlayers;
+//std::map<unsigned int, GameState::CubeMesh*> GameState::m_netPlayers;
 
 bool GameState::update(const float &delta)
 {
@@ -48,18 +48,18 @@ bool GameState::update(const float &delta)
 	m_player->update(delta);
 	m_frameDelta = delta;
 
-	if (NetworkManager->isActive()) NetworkManager->update(delta);
+	//if (NetworkManager->isActive()) NetworkManager->update(delta);
 
-	auto ndata = NetworkManager->getMapPtr();
-	for (auto it = ndata->begin(); it != ndata->end(); it++)
-	{
-		if (m_netPlayers.find(it->first) == m_netPlayers.end())
-		{
-			m_netPlayers[it->first] = new CubeMesh(CCubeGeometry::getInstance(), new CBasicMaterial(m_crate));
-		}
-		m_netPlayers[it->first]->setPosition(it->second.getDRPosition(delta));
-		m_netPlayers[it->first]->rotateAbs(it->second.getDRAngle(), up_vector);		
-	}
+	//auto ndata = NetworkManager->getMapPtr();
+	//for (auto it = ndata->begin(); it != ndata->end(); it++)
+	//{
+	//	if (m_netPlayers.find(it->first) == m_netPlayers.end())
+	//	{
+	//		m_netPlayers[it->first] = new CubeMesh(CCubeGeometry::getInstance(), new CBasicMaterial(m_crate));
+	//	}
+	//	m_netPlayers[it->first]->setPosition(it->second.getDRPosition(delta));
+	//	m_netPlayers[it->first]->rotateAbs(it->second.getDRAngle(), up_vector);		
+	//}
 
 	return true;
 }
@@ -131,10 +131,10 @@ void GameState::renderGeometry(void)
 	m_playerCube->render();
 	m_sceneCube->render();
 	m_ground->render();
-	for (auto it = m_netPlayers.begin(); it != m_netPlayers.end(); it++)
-	{
-		it->second->render();
-	}
+	//for (auto it = m_netPlayers.begin(); it != m_netPlayers.end(); it++)
+	//{
+	//	it->second->render();
+	//}
 }
 
 void GameState::renderLight(void)
