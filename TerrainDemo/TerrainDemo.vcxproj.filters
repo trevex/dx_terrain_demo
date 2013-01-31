@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{2b2e4f54-ae1b-4359-94e9-3b7935eafd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{e9a1b42e-4278-4803-9d11-4855088c11fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{cc7c474c-d63d-4a3e-a8cb-af53e12cd594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\DirectX">
+      <UniqueIdentifier>{322aaba2-d21e-4f22-a013-a906b4eb7890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\OpenGL">
+      <UniqueIdentifier>{9fcd3838-9efb-4d29-b279-42f58ab0ab31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{f3cbef98-1af5-4c6f-bda9-15e7322518ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{69b11a27-530f-4140-9992-402a4b028f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State">
+      <UniqueIdentifier>{382d9e9e-e124-4674-a79b-47de6debc167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test">
+      <UniqueIdentifier>{836ddfc4-9692-408f-939d-ce73a25f2140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Win">
+      <UniqueIdentifier>{e9c15a77-b929-452f-b138-68f0a931ff1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Unix">
+      <UniqueIdentifier>{45d43f23-59d6-4e36-8079-d86e436e4466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{7b0dec78-291c-4bdb-b770-5ecc92f36c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{5c0a186e-5a65-41ad-8ae6-a7fb3a4f59ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{104031c8-29a7-425d-9ab3-aa5daed27b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{33d92b9d-b546-4da1-a480-b2fdda8ba051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{51f11e52-f36f-4197-8763-51bfd176a40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\DirectX">
+      <UniqueIdentifier>{69d00ffe-5650-4053-94ce-2c69e42f7acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\OpenGL">
+      <UniqueIdentifier>{c46a4116-9c64-4c61-aa10-750260ca0d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{fb8c1362-e0f4-4341-9450-75e30190620b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State">
+      <UniqueIdentifier>{ff0347c4-3c19-4ef7-8af1-e840f8f4ae0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{5050a358-7315-4f80-b128-c1b83946618d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win">
+      <UniqueIdentifier>{362da36c-bd48-419e-b501-b1bd87280f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unix">
+      <UniqueIdentifier>{68375cab-d827-4ef6-8b6a-bb60bc3c2e66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
