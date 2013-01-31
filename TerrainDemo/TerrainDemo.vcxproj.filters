@@ -83,4 +83,215 @@
       <UniqueIdentifier>{68375cab-d827-4ef6-8b6a-bb60bc3c2e66}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\FreeCamera.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\PlayerController.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Timer.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameState.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MenuState.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Camera.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\FontWrapper.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Geometry.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GeometryBase.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Light.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Material.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\MaterialBase.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\MaterialManager.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Mesh.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\MeshInfo.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Renderer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\RenderInfo.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Texture.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXBasicMaterial.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXCubeGeometry.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXFontWrapper.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXGeometryInfo.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXLightingShader.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXPostProcessShader.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXQuadGeometry.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXRenderer.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXRenderInfo.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXShaderHelper.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXSkyBoxMaterial.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXSkySphereGeometry.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXTexture.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectX\DXTextureCube.h">
+      <Filter>Header Files\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Keyboard.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Mouse.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Allocator.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MemoryAllocator.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Win\Common.h">
+      <Filter>Header Files\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="Win\InputHandler.h">
+      <Filter>Header Files\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="Win\RenderWindow.h">
+      <Filter>Header Files\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestState.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base\FreeCamera.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameState.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MenuState.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Light.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\MaterialManager.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\RenderInfo.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXBasicMaterial.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXCubeGeometry.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXFontWrapper.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXLightingShader.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXPostProcessShader.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXQuadGeometry.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXRenderer.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXShaderHelper.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXSkyBoxMaterial.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXSkySphereGeometry.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXTexture.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DirectX\DXTextureCube.cpp">
+      <Filter>Source Files\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Keyboard.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Mouse.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MemoryAllocator.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Win\InputHandler.cpp">
+      <Filter>Source Files\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="Win\RenderWindow.cpp">
+      <Filter>Source Files\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\TestState.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="State\StateManager.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

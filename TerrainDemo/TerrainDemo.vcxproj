@@ -67,6 +67,77 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="Base\FreeCamera.h" />
+    <ClInclude Include="Base\PlayerController.h" />
+    <ClInclude Include="Base\Timer.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Game\GameState.h" />
+    <ClInclude Include="Game\MenuState.h" />
+    <ClInclude Include="Graphics\Camera.h" />
+    <ClInclude Include="Graphics\DirectX\DXBasicMaterial.h" />
+    <ClInclude Include="Graphics\DirectX\DXCubeGeometry.h" />
+    <ClInclude Include="Graphics\DirectX\DXFontWrapper.h" />
+    <ClInclude Include="Graphics\DirectX\DXGeometryInfo.h" />
+    <ClInclude Include="Graphics\DirectX\DXLightingShader.h" />
+    <ClInclude Include="Graphics\DirectX\DXPostProcessShader.h" />
+    <ClInclude Include="Graphics\DirectX\DXQuadGeometry.h" />
+    <ClInclude Include="Graphics\DirectX\DXRenderer.h" />
+    <ClInclude Include="Graphics\DirectX\DXRenderInfo.h" />
+    <ClInclude Include="Graphics\DirectX\DXShaderHelper.h" />
+    <ClInclude Include="Graphics\DirectX\DXSkyBoxMaterial.h" />
+    <ClInclude Include="Graphics\DirectX\DXSkySphereGeometry.h" />
+    <ClInclude Include="Graphics\DirectX\DXTexture.h" />
+    <ClInclude Include="Graphics\DirectX\DXTextureCube.h" />
+    <ClInclude Include="Graphics\FontWrapper.h" />
+    <ClInclude Include="Graphics\Geometry.h" />
+    <ClInclude Include="Graphics\GeometryBase.h" />
+    <ClInclude Include="Graphics\Light.h" />
+    <ClInclude Include="Graphics\Material.h" />
+    <ClInclude Include="Graphics\MaterialBase.h" />
+    <ClInclude Include="Graphics\MaterialManager.h" />
+    <ClInclude Include="Graphics\Mesh.h" />
+    <ClInclude Include="Graphics\MeshInfo.h" />
+    <ClInclude Include="Graphics\Renderer.h" />
+    <ClInclude Include="Graphics\RenderInfo.h" />
+    <ClInclude Include="Graphics\Texture.h" />
+    <ClInclude Include="Input\Keyboard.h" />
+    <ClInclude Include="Input\Mouse.h" />
+    <ClInclude Include="Memory\Allocator.h" />
+    <ClInclude Include="Memory\MemoryAllocator.h" />
+    <ClInclude Include="Test\TestState.h" />
+    <ClInclude Include="Win\Common.h" />
+    <ClInclude Include="Win\InputHandler.h" />
+    <ClInclude Include="Win\RenderWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base\FreeCamera.cpp" />
+    <ClCompile Include="Game\GameState.cpp" />
+    <ClCompile Include="Game\MenuState.cpp" />
+    <ClCompile Include="Graphics\Camera.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXBasicMaterial.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXCubeGeometry.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXFontWrapper.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXLightingShader.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXPostProcessShader.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXQuadGeometry.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXRenderer.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXShaderHelper.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXSkyBoxMaterial.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXSkySphereGeometry.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXTexture.cpp" />
+    <ClCompile Include="Graphics\DirectX\DXTextureCube.cpp" />
+    <ClCompile Include="Graphics\Light.cpp" />
+    <ClCompile Include="Graphics\MaterialManager.cpp" />
+    <ClCompile Include="Graphics\RenderInfo.cpp" />
+    <ClCompile Include="Input\Keyboard.cpp" />
+    <ClCompile Include="Input\Mouse.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Memory\MemoryAllocator.cpp" />
+    <ClCompile Include="State\StateManager.cpp" />
+    <ClCompile Include="Test\TestState.cpp" />
+    <ClCompile Include="Win\InputHandler.cpp" />
+    <ClCompile Include="Win\RenderWindow.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
