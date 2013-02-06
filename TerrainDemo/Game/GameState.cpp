@@ -7,6 +7,8 @@
 #include <boost/random/mersenne_twister.hpp>
 #include <boost/random/uniform_real_distribution.hpp>
 
+#include "../Graphics/GeometryData.h"
+
 
 #define LIGHT_COUNT 10
 
@@ -22,7 +24,7 @@ GameState::SkyMesh*			GameState::m_skybox = 0;
 CFontWrapper*				GameState::m_font = 0;
 GameState::Player*			GameState::m_player = 0;
 float						GameState::m_frameDelta = 0.0f;
-glm::vec3*					GameState::m_pointLightDirs = 0;s
+glm::vec3*					GameState::m_pointLightDirs = 0;
 
 bool GameState::update(const float &delta)
 {
@@ -92,6 +94,18 @@ bool GameState::enter(void* options)
 		m_pointLightDirs[i] = glm::normalize(glm::vec3(pos_dist(gen), 0.0f, pos_dist(gen)));
 	}
 	m_player->attach(m_playerCube);
+
+	CGeometryData test_data;
+	test_data.getPositionVector()->push_back(glm::vec3(1.879789f, 1.23123f, 0.1231231f));
+	test_data.getPositionVector()->push_back(glm::vec3(1.122789f, 1.21223f, 3.1231231f));
+	test_data.getPositionVector()->push_back(glm::vec3(1.879789f, 1.23123f, 0.1231231f));
+	test_data.getPositionVector()->push_back(glm::vec3(1.123789f, 1.23123f, 0.1231231f));
+	test_data.getPositionVector()->push_back(glm::vec3(1.879789f, 1.12323f, 0.43431231f));
+	test_data.getPositionVector()->push_back(glm::vec3(0.879789f, 1.23123f, 2.1231231f));
+	test_data.getPositionVector()->push_back(glm::vec3(0.129789f, 1.23123f, 2.123231f));
+	test_data.getPositionVector()->push_back(glm::vec3(1.879789f, 4.23123f, 2.1231231f));
+	test_data.getPositionVector()->push_back(glm::vec3(1.879789f, 4.23123f, 2.1231231f));
+	test_data.removeDuplicates();
 
 	return true;
 }

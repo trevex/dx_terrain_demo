@@ -96,6 +96,7 @@
     <ClInclude Include="Graphics\FontWrapper.h" />
     <ClInclude Include="Graphics\Geometry.h" />
     <ClInclude Include="Graphics\GeometryBase.h" />
+    <ClInclude Include="Graphics\GeometryData.h" />
     <ClInclude Include="Graphics\Light.h" />
     <ClInclude Include="Graphics\Material.h" />
     <ClInclude Include="Graphics\MaterialBase.h" />
@@ -131,6 +132,7 @@
     <ClCompile Include="Graphics\DirectX\DXSkySphereGeometry.cpp" />
     <ClCompile Include="Graphics\DirectX\DXTexture.cpp" />
     <ClCompile Include="Graphics\DirectX\DXTextureCube.cpp" />
+    <ClCompile Include="Graphics\GeometryData.cpp" />
     <ClCompile Include="Graphics\Light.cpp" />
     <ClCompile Include="Graphics\MaterialManager.cpp" />
     <ClCompile Include="Graphics\RenderInfo.cpp" />
