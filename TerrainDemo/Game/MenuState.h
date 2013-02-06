@@ -20,7 +20,6 @@ public:
 protected:
 private:
 	static CFontWrapper* m_font;
-	static std::string m_ip;
 };
 
 #endif
